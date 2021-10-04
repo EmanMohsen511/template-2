@@ -1,0 +1,53 @@
+/** services section**/
+
+.service {
+    background-color: var(--bg-gray);
+}
+.service-item{
+    width: 50%;
+}
+.service-item .section-header {
+    text-align: left;
+}
+.service-item .section-header .line {
+    margin: 0 0 10px 0;
+}
+.service-item-desc {
+    padding-right: 20px;
+    color: #6999;
+    line-height: 1.5;
+    font-size: 17px;
+}
+.service-list {
+    list-style: none;
+}
+.service-list li i {
+    border: 1px solid var(--maincolor);
+    color: var(--maincolor);
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+}
+.service-list li {
+    color: #6999;
+}
+.service-item-img img {
+width: 100%;
+}
+.service-bollets {
+    list-style: none;
+}
+.service-bollets li {
+    width: 7px;
+    height: 7px;
+    background-color: var(--gary-white);
+    margin: 10px 5px;
+    border-radius: 50%;
+}
+.service-bollets li.active {
+    background-color: var(--maincolor);
+}
+.service-bollets li:hover {
+    background-color: var(--maincolor);
+}

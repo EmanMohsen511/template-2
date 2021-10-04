@@ -1,0 +1,363 @@
+/**blog-page-section**/
+
+.blog-page-sec {
+    background-color: var(--bg-gray);
+}
+.blog-page-title {
+    font-size: 40px;
+}
+ul.blog-page-list {
+    margin: -30 0 0 900; 
+}
+.blog-page-list a {
+    text-decoration: none;
+    color: #0275d8;
+    text-align: right;  
+}
+.blog-page-list a.befor.mg {
+    color: var(--graycolor);
+}
+.blog-page-list a.befor:before {
+    padding: 3px;
+    color: black;
+    content: "/\00a0";
+}
+.blog-page-row1 {
+    width: 85%; 
+}
+.blog-page-row1 img {
+    width: 85%;
+    margin-bottom: 30px;
+}
+.blog-page-icon {
+    margin: 0px 1px;
+}
+.blog-page-icon i {
+    color: var(--maincolor);
+    margin: 10px 3px;
+    font-size: 14px;
+}
+.blog-page-des {
+    margin: 20px 0;
+}
+.blog-page-p {
+    margin: 10px 0;
+    line-height: 1.6;
+    width: 70%;
+}
+.blog-page-h5 {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.icon-a {
+    margin: 0 2px;
+    padding: 8px 8px;
+    background-color: var(--gary-white);
+    text-transform: capitalize; 
+    text-decoration: none;
+    color: #000;
+}
+.a-hover a:hover {
+    opacity: .7;
+    background-color: var(--maincolor);
+    color: var(--whitecolor);
+}
+.icon-a i {
+    color: var(--maincolor);
+    margin-top: 50px;
+}
+.blog-page-row1 a.icon-a {
+    padding: 6px 8px;
+    width: 30px;
+    font-size: 15;
+    text-align: center;
+}
+.blog-page-row2 {
+    float: right;
+    width: 25%;
+    
+}
+.blog-page-row2 .form input {
+    margin: 0;    
+}
+.form .blog-form  input {
+    height: 40px;
+    width: 100% ;
+    padding: 10px;
+    font-size: 18px;
+    color: #354052;
+    background-color: var(--bg-gray);
+    border: 0;  
+}
+.form {
+    margin-bottom: 50px;
+}
+.blog-form {
+    position: relative;
+    margin-bottom: 30px; 
+}
+.form-bt {
+    padding: 13px;
+    margin: 0;
+}
+.blog-form .form-bt {
+    position: absolute;
+    color: var(--maincolor);
+    border: 0;
+    background-color: var(--bg-gray);    
+}
+.form hr {
+    width: 100%;
+    margin: 10px 1px;   
+}
+.form-a a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;  
+}
+.form-a1 a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    
+}
+.form-a2 a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;   
+}
+.form-a3 a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;   
+}
+.form-a span {
+    margin-left: 160px;
+    color: var(--maincolor);  
+}
+.form-a1 span {
+    margin-left: 162px;
+    color: var(--maincolor);   
+}
+.form-a2 span {
+  margin-left: 110px;
+  color: var(--maincolor);
+}
+.form-a3 span {
+    margin-left: 180px;
+    color: var(--maincolor);
+}
+.form-imgs {
+    margin-bottom: 40px;
+}
+.form-imgs img {
+    width: 30%;
+    float: left;
+    height: 10%;
+    margin-right: 5px;
+}
+.form-imgs.mg {
+    margin: 50px 0;
+}
+.form-imgs img:hover, .form-imgs .form-imgs-a:hover {
+    opacity: .7;
+}
+.form-imgs .form-imgs-a:hover {
+    color: var(--maincolor);
+}
+.form-imgs a {
+    display: block;
+    text-decoration: none;
+    margin: 10px 0;
+    font-size: 13px;
+    text-transform: capitalize;   
+}
+.form-imgs .form-imgs-a {
+    color: #000;
+    font-size: 15px;
+}
+.tag-blog {
+    margin: 35px 0;
+    width: 80%;
+}
+.tag-blog h2 {
+    font-size: 25px;
+}
+.tag-blog .tag-icon-a {
+    text-decoration: none;
+    background-color: #F4F4F4;
+    padding: 6px 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin: 2px 0px;
+    display: inline-block;
+    color: #000;   
+}
+.tag-blog .tag-icon-a:hover {
+    background-color: var(--maincolor);
+    color: var(--whitecolor);
+    opacity: .7;
+}
+.tag-blog span {
+    margin-left: 5px;
+}
+.page-info {
+    margin-top: -60px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    border: 1px solid var(--gary-white);
+    width: 70%;
+}
+.page-info img {
+    width: 20%;
+    height: 30%;
+    float: left;
+    margin-right: 15px;
+    padding: 10px 10px;
+}
+.page-info h3 {
+    margin:10px 5% 30px 5%;
+    font-size: 23px;
+    display: block;
+    text-transform: uppercase;
+}
+hr {
+    width: 75%;
+    margin: 0 20%;
+    margin-bottom: 30px;
+    color: var(--bg-gray);
+}
+.page-info h5 {
+    text-transform: capitalize;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 75%;
+    color: var(--graycolor);
+}
+.page-info .i-a {
+    margin: -155px 30px; 
+}
+.page-info .i-a a i {
+    color: var(--maincolor);
+    float: right;
+    padding: 0px 3px ;
+}
+.comments{
+    overflow: hidden;
+    margin-bottom: 40px; 
+}
+.comment-title {
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: -78px;
+}
+.comment-span {
+    display: block;
+    width: 40px;
+    height: 4px;
+    background-color: var(--maincolor);
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.comment-container {
+    padding: 10px;
+}
+.comment-a {
+    width: 100%;   
+    padding: 20px 20px;
+    border: 1px solid var(--gary-white);
+}
+.comment {
+    border: 1px solid var(--gary-white);
+    width: 70%;
+}
+.comment-a.mg {
+    border: 2px solid var(--maincolor);
+    background-color: var(--bg-gray);
+}
+.comment-img {
+    width: 10%;
+    height: 12%;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.comment-title {
+    margin-bottom: px;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 0 80px;
+}
+.comment-a h5 {
+    font-size: 12px;
+    color: var(--graycolor);
+    text-transform: uppercase;
+    margin-top: -30px;
+    padding: 0 230px 0px;
+    margin-bottom: 5px;
+}
+.comment-desc {
+    line-height: 1.5;
+    color: var(--graycolor);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.comment-icons i {
+    color: var(--maincolor);
+    float: right;
+    margin-left: 5px;
+    margin: 0;   
+}
+.comment-icons {
+    text-transform: capitalize;
+    color: var(--maincolor);
+    margin-left: 680px;
+    float: left;
+    margin-top: -110px;
+}
+.reply-form {
+    margin: 20 0px;
+    margin-bottom: 30px;
+    width: 100%;
+    overflow: hidden;
+}
+.reply-form.mg {
+    margin-left: 1%;
+    width: 34%;
+    
+}
+.reply-form input {
+    text-transform: uppercase;
+    width: 35%;
+    height: 35px;
+    float: left;
+    margin: 20 0px;
+    background-color: var(--bg-gray);
+    border: 0;
+    padding: 10px;
+    font-size: 15px;
+}
+.reply-form textarea {
+    display: block;
+    width: 70%;
+    height: 80px;
+    margin: 30px 0;
+    background-color: var(--bg-gray);
+    text-transform: uppercase;
+    border: 0;
+    color: var(--gary-white);
+    padding: 10px;
+    font-size: 18px;
+}
+.reply-bt {
+    width: 130px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 17px;
+    border: 0;
+    background-color: var(--maincolor);
+    color: var(--whitecolor);
+    margin-bottom: 150px;
+    text-transform: capitalize;
+}

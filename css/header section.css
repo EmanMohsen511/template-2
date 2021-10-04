@@ -1,0 +1,114 @@
+/**3.0 header section**/
+.header {
+    
+    position: fixed;/** position {fixed-absolute} بيحولوا العنصر من display-block الى display-inlineblock**/
+    width: 100%;
+    z-index: 5;/** علشان يحل مشكلة position لانه بيحول العنصر كم display block الى display-inlineblock **/
+    background: rgba(0 ,0, 0, .5); 
+}
+ /* .header-content {
+    /* overflow: hidden; * to solve float problem* */
+ 
+.header .logo {
+    width: 40%;
+}
+.header .logo img {
+    width: 22%;/** علشان اظبط حجم الصورة بتاعتى**/
+    margin-top: 10px;
+}
+.header .nav {
+    width: 60%;
+    list-style: none;
+    text-align: right;
+    
+}
+.header .nav > li {
+    text-align: right;
+}
+.header .nav > li > a {
+    color: var(--whitecolor);
+    font-size: 13px;
+    text-decoration: none;
+/** عملتها كدا وهما مش هينزلوا تحت بعض لانى مدياها لعنصر a فقط مش هيطبق على li **/
+    padding: 20px 15px;
+}
+.header .nav > li > a.active::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    display: block;
+    background-color: var(--maincolor);
+    transition: width .5s;
+}
+.header .nav > li > a::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    margin-top: 2px;
+    display: block;
+    background-color: var(--maincolor);
+    transition: width .5s;
+}
+.header .nav > li > a:hover::after {
+    width: 100%;
+}
+
+.dropdown-menu {
+    background: var(--maincolor);
+    width: 100px;
+    top: 75%;
+    left: -50%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s , visibility .5s;
+    
+}
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown-menu a {
+    text-decoration: none;
+    padding: 5px;
+    color: var(--whitecolor);
+    font-size: 12px;
+}
+/** home section**/
+.home {
+    height: 100vh;
+    background-image: url(../photos/background/background1.webp);
+    background-size: cover; /**css3**/
+}
+.home-content{
+    width: 65%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.home .title {
+    color: var(--whitecolor);
+    font-size: 2.9rem;
+}
+.home .home-desc {
+    margin: 20px 0px;
+    color: var(--whitecolor);
+    letter-spacing: 2px;
+    line-height: 1.5;
+
+}
+.home .btn {
+    width: 150px;
+    padding: 15px 0;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-size: 15px;
+}
+.home .btn-start {
+    margin-right: 10px;
+    background-color: var(--whitecolor);
+}
+.home .btn-learn {
+    background-color: var(--maincolor);
+    color: var(--whitecolor);
+}

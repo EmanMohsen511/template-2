@@ -1,0 +1,69 @@
+/** contact section**/
+.contact {
+    margin: 15px 0;
+}
+.contact-item {
+    width: 30%;
+    padding: 0 100px;
+}
+.contact-item.mg {
+    margin: 0 5%;
+}
+.contact-item i {
+    color: var(--maincolor);
+    margin: 10px 0;
+}
+.contact-item i.address {
+    padding: 0 70px;
+}
+.contact-title {
+    font-size: 30px;
+    margin: 10px 20px;
+}
+.contact-desc {
+    color: var(--graycolor);
+    margin: 10px 0;
+}
+.contact-form {
+    margin-top: 40px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.contact-form .input-mg, .input-child, .input-mg1 {
+    background: #F4F4F4;
+    font-size: 18px;
+    border: 2px solid #F4F4F4;
+    
+    margin-left: auto;
+    padding: 0 10px;
+    margin: 5px;
+}
+.input-child {
+    width: 33% ;
+    height: 40px;
+}
+.input-mg {
+    width: 67.5%;
+    height: 40px;
+}
+.input-mg1 {
+    height: 80px;
+    width: 67.5%;
+}
+.contact-bt {
+    display: block;
+    margin: auto;
+    width: 190px;
+    height: 50px;
+    background: var(--maincolor);
+    color: var(--whitecolor);
+    font-size: 16px;
+    border: 0;
+    border-radius: 2%;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+.contact-bt:hover {
+    opacity: .8;
+}
+
